@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap');
 
 html {
-    background: linear-gradient(221deg, #12142c, #0f2729);
+    background: linear-gradient(221deg, #3b428b, #25645a);
     background-size: 400% 400%;
     
     animation: GalleryBackground 50s ease infinite;
