@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: linear-gradient(221deg, #12142c, #0f2729);
+    background-size: 400% 400%;
+    
+    animation: GalleryBackground 50s ease infinite;
+    }
+    
+    @keyframes GalleryBackground {
+    0%{background-position:86% 0%}
+    50%{background-position:15% 100%}
+    100%{background-position:86% 0%}
+}
+
+.title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #e1fff3, #ffdad5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title h2 {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.intro {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: #252d66;
+    text-align: center;
+    background-color: rgba(98, 104, 121, 0.1);
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+.intro p {
+    color: whitesmoke
+}
+
+.category {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: #3c2566;
+    text-align: center;
+    background-color: rgba(55, 49, 73, 0.1);
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    max-width: 66%;
+    float: left;
+}
+
+.category .links {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: #3c2566;
+    text-align: center;
+    background-color: rgba(121, 98, 105, 0.1);
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.category .links p {
+    color: gainsboro;
+}
+
+.category h1 {
+    color: whitesmoke;   
+}
+
+.category h2 {
+    color: whitesmoke;  
+    font-size: medium;
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 16000px) {
+    .categories {
+        font-family: 'Ubuntu', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
+  
+@media only screen and (max-width: 800px) {
+    .categories {
+        flex-direction: column;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap');
+
+html {
+    background: linear-gradient(221deg, #12142c, #0f2729);
+    background-size: 400% 400%;
+    
+    animation: GalleryBackground 50s ease infinite;
+    }
+    
+    @keyframes GalleryBackground {
+    0%{background-position:86% 0%}
+    50%{background-position:15% 100%}
+    100%{background-position:86% 0%}
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.what {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: #255c66;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 2%;
+}
+
+.what h2 {
+    color: gainsboro;
+    font-size: large;
+}
+
+
+.what p {
+    font-style: italic;
+    color: gainsboro;
+    margin-bottom: 3%;
+}
